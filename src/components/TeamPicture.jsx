@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Figure from 'react-bootstrap/Figure';
-// import '../css/TeamPicture.css';
 
 class TeamPicture extends Component {
   constructor(props) {

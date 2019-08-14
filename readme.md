@@ -5,7 +5,7 @@ The website for HackTJ 2020, held on March 21st-22nd, 2020.
 ## Setup
 
 -   `npm install`
--   `npm start`
+-   `npm run start`
 
 ## Development
 

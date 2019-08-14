@@ -6,9 +6,9 @@ import NotFoundPage from './components/NotFoundPage';
 
 function App() {
   const baseUrl = process.env.PUBLIC_URL;
-  return (<Router>
+  return (<Router basepath="/2020">
     <MainPage path="/" exact={true}/>
-    <HistoryPage path="/history"/>
+    <HistoryPage path="history"/>
     <NotFoundPage path="*" exact={true}/>
   </Router>);
 }

@@ -1,7 +1,8 @@
 {
   "name": "hacktj-2020",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "homepage": "https://hacktj.org/2020",
   "dependencies": {
     "@reach/router": "^1.2.1",
     "bootstrap": "^4.3.1",
@@ -37,6 +38,5 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
-  },
-  "homepage": "http://hacktj.github.io/2020"
+  }
 }
