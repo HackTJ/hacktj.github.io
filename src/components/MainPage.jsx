@@ -27,7 +27,7 @@ function MainPage() {
         <div className="register-button-block-old top">
           {/* TODO: change pictures URL */}
           <a className="button register-button mentor" href="https://www.facebook.com/pg/HackTJOfficial/photos/?tab=album&album_id=2168769876535523">2019 Pictures</a>
-          <Link className="button register-button mentor" to="history">Past Projects</Link>
+          <Link className="button register-button mentor" to={`${process.env.PUBLIC_URL}/history`}>Past Projects</Link>
           <a className="button register-button mentor" href="https://hacktj2019.devpost.com/">Devpost</a>
         </div>
       </div>
@@ -207,7 +207,7 @@ function MainPage() {
         <h1 className="section-title">Schedule</h1>
         <ul className="day">
           <div className="day-title">
-            <h3>Saturday, April 6</h3>
+            <h3>Saturday, March 21</h3>
             <div className="animation-container horizontal line-schedule">
               <div className="animated left"></div>
             </div>
@@ -248,7 +248,7 @@ function MainPage() {
         </ul>
         <ul className="day">
           <div className="day-title">
-            <h3>Sunday, April 7</h3>
+            <h3>Sunday, March 22</h3>
             <div className="animation-container horizontal line-schedule">
               <div className="animated left"></div>
             </div>
@@ -312,144 +312,6 @@ function MainPage() {
           <TeamPicture name="Nuha Mohammed" about="Nuha Mohammed is a sophomore at Thomas Jefferson High School for Science and Technology and serves for HackTJ 6.0. Nuha is an ardent computer scientist, undertaking various projects in machine learning and software development. Additionally, she frequently challenges herself by competing in a wide range of computing contests. She is also an officer of TJ’s Coding Lady Colonials Club where she promotes girls’ engagement in computing through many interactive lessons. When she is not coding, Nuha enjoys watching the TV show Cutthroat Kitchen and loves baking and experimenting with new desserts!" image={require('../images/team/nuha.jpeg')}></TeamPicture>
           <TeamPicture name="Mr. Dan Tra" about="Mr. Tra is a computer science teacher at Thomas Jefferson High School for Science and Technology and a teacher sponsor for HackTJ." image={require('../images/team/tra.jpeg')}></TeamPicture>
           <TeamPicture name="Ms. Ria Galanos" about="Ms. Galanos is a computer science teacher at Thomas Jefferson High School for Science and Technology and a teacher sponsor for HackTJ." image={require('../images/team/galanos.jpeg')}></TeamPicture>
-
-          {/*<li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/reilly.jpeg')} alt=""/>
-              <figcaption>Reilly McBride</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Reilly is the Director of HackTJ 6.0. She’s a senior, and this is her third year on the organizing team after attending HackTJ her freshman year. In the past, Reilly served as Vice Director and has worked on social media, food, communication, and partnerships. This year, she does a little bit of everything with the help of her amazing team. Reilly loves both computer science and biology, and spends the rest of her time at school dancing and studying Latin. In her free time, Reilly bakes a lot of cakes.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/sarah.jpeg')} alt=""/>
-              <figcaption>Sarah Wang</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Sarah is a junior at TJ and is HackTJ’s Lead Sponsorship Coordinator and invoice creator. She first became interested in computer science in middle school and has since pursued this passion by participating in the USA Computing Olympiad and TJ&apos;s ICT to gain a better algorithmic understanding of computer science. She also loves biology and chemistry and is especially interested in how computer science can be applied to these fields. In addition to computer science, Sarah enjoys dancing, Science Olympiad, fostering girls’ interest in STEM through WISE, volunteering at her local senior home, and watching Law & Order.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/kotryna.jpeg')} alt=""/>
-              <figcaption>Kotryna Vismante
-              </figcaption>
-            </figure>
-            <div className="answer">
-              <p>Kotryna is a current junior and the lead sponsorship and volunteer coordinator on the HackTJ 6.0 team. Alongside computer science classes, TJ’s ICT, and the Bioinformatics Society, Kotryna competes in Model UN and the Knowledge@Wharton Investment Competition. An avid traveler and language-learner, she seeks to connect politics, philosophy, and economics with software and machine learning in a way that facilitates global communication and development. In her leisure time, Kotryna plays on the girl’s soccer team, cooks, and browses Elitist Memes for Every Ivy League Teen (hi Mark Zuckerberg!)</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/rohan.jpeg')} alt=""/>
-              <figcaption>Rohan Chaturvedula
-              </figcaption>
-            </figure>
-            <div className="answer">
-              <p>Rohan Chaturvedula is a senior at Thomas Jefferson High School. Originally, he registered as a participant at HackTJ his freshman year due to his interest in coding. He had a great time, so he wanted to look into joining the organizing committee. Rohan ended up filling out the application and getting selected. The past three years have been filled with great memories and experiences. Additionally, he has really enjoyed putting forth his ideas to make the hackathon even better each year. Outside of HackTJ, he loves to play sports, specifically soccer and basketball for his school – Thomas Jefferson high school.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/nishitha.jpeg')} alt=""/>
-              <figcaption>Nishitha Vattikonda</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Nishitha Vattikonda is a sophomore on the HackTJ team working on coordinating sponsor outreach and dining options for the event. She’s a computer science enthusiast, taking advanced CS classes at her high school. Nishitha is the Publicist of Coding Lady Colonials, a computer science club focused on encouraging girls in computer science. She’s interested in working to end the gender gap in STEM fields and working on Fairfax County’s Student Human Right Commission to bring equity to students across the county. In her free time, Nishitha loves watching Friends and spending time with her friends and family!</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/rachel.jpeg')} alt=""/>
-              <figcaption>Rachel Naidich</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Rachel is a senior at TJHSST and is responsible for the HackTJ website. She loves computer science, and her specific interests include artificial intelligence and the applications of new technology like virtual reality. She competes in programming competitions and is a gold division competitor in the USA Computing Olympiad. As an officer of the Coding Lady Colonials club, she works to empower high school girls to pursue computer science. Her team developed an app that generates the safest routes using traffic accident and risk data at her last hackathon. Outside of coding, she enjoys playing chess and rugby.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/varun.jpeg')} alt=""/>
-              <figcaption>Varun Gannavarapu</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Varun Gannavarapu is a senior at Thomas Jefferson High School for Science and Technology. Varun is in charge of Hack TJ’s internet/tech, registration, and DevPost submissions. Varun&apos;s interests pertain to robotics, computer science, and physics. Outside of computer science, Varun is a member of TJ&apos;s student government and competes on the varsity wrestling team. In his free time, Varun likes to tutor peers and spend time with his friends. He lives by the words of Helen Keller: "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence."</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/priyanka.jpeg')} alt=""/>
-              <figcaption>Priyanka Mehta</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Priyanka Mehta is a senior on the HackTJ 6.0 team working on the registration process, website, and coordinating volunteers for the event. A former web development intern at George Mason University and mobile application intern at an analytics startup, she&apos;s passionate about creating aesthetic and accessible user platforms. When she isn’t coding, Priyanka enjoys reading and reviewing dystopian horror novels, playing with her Goldendoodle puppy, and planning her next international vacation.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/parthiv.jpeg')} alt=""/>
-              <figcaption>Parthiv Chigurupati
-              </figcaption>
-            </figure>
-            <div className="answer">
-              <p>Parthiv is currently a junior at Thomas Jefferson High School for Science and Technology. This is his first year serving as a member of the HackTJ committee. His responsibilities this year include maintaining the hackathon DevPost and preparing Internet access and technology, such as the hardware available for hackers, for the event. In addition to working on HackTJ 6.0, Parthiv works as a Sysadmin to ensure that TJ’s Intranet and web services are always in order. He is also currently completing two separate research endeavors through both TJ’s underclassmen research (JUMP) lab and the Naval Research Laboratory.
-              </p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/kavya.jpeg')} alt=""/>
-              <figcaption>Kavya Parekh</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Kavya is a senior at TJHSST and is working on branding and merchandise for HackTJ. She has worked on the HackTJ team for the last two years and shares a passion for computer science and biology. She is the Vice President of Coding Lady Colonials and has done two years of continuing research at the National Institutes of Health. In her free time, she can be found watching Hasan Minhaj, drawing, or telling her friends corny jokes. After participating in or organizing HackTJ for all of her previous years at TJ, Kavya is looking forward to an amazing HackTJ 6.0!</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/sanjana.jpeg')} alt=""/>
-              <figcaption>Sanjana Meduri</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Sanjana is a junior at TJ and is in charge of organizing workshops and making the HackTJ Judging App. She is passionate about CS and ultimately hopes to work in artificial intelligence when she grows up. She is the Internal Affairs Officer of Coding Lady Colonials, where she gives lectures about different CS topics and works to motivate women in CS. Sanjana is also an avid debater as the teaching coordinator for the TJ Public Forum Debate Team, and she is the historian for TJ Namaste. Outside of school, Sanjana spends almost all of her free time dancing.
-              </p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/megan.jpeg')} alt=""/>
-              <figcaption>Megan Dass</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Megan Dass is a junior at TJ and is in charge of social media and workshops for HackTJ 6.0. Megan is intrigued by computer science and she is currently taking classes like artificial intelligence and computer vision to complement her interest. She is also part of student government, class council, the CyberPatriot team, and the Lincoln-Douglas Debate team. She has a passion to promote STEM in girls, which is why she is the co-founder of the CyberPatriot club at her school. Outside of school, Megan enjoys cooking and watching TV.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/allison.jpeg')} alt=""/>
-              <figcaption>Alison Duan</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Alison is a senior on the HackTJ 6.0 Team and is currently in charge of creating the branding for all of the HackTJ merchandise and works to plan and secure informative workshops with mentors who are professionals in their fields. Outside of HackTJ, Alison works as an Internal Affairs Officer for Coding Lady Colonials, the organization at TJ that promotes coding for women and partners with HackTJ. She is also the Engineering Committee Chair for WISE (Women In Science and Engineering) and helps create labs and interactive projects as part of an outreach initiative for girls in elementary schools.</p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/nuha.jpeg')} alt=""/>
-              <figcaption>Nuha Mohammed</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Nuha Mohammed is a sophomore at Thomas Jefferson High School for Science and Technology and serves for HackTJ 6.0. Nuha is an ardent computer scientist, undertaking various projects in machine learning and software development. Additionally, she frequently challenges herself by competing in a wide range of computing contests. She is also an officer of TJ’s Coding Lady Colonials Club where she promotes girls’ engagement in computing through many interactive lessons. When she is not coding, Nuha enjoys watching the TV show Cutthroat Kitchen and loves baking and experimenting with new desserts!
-              </p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/tra.jpeg')} alt=""/>
-              <figcaption>Mr. Dan Tra</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Mr. Tra is a computer science teacher at Thomas Jefferson High School for Science and Technology and a teacher sponsor for HackTJ.
-              </p>
-            </div>
-          </li>
-          <li className="question-group">
-            <figure className="fade question" title="Caption"><img src={require('../images/team/galanos.jpeg')} alt=""/>
-              <figcaption>Ms. Ria Galanos</figcaption>
-            </figure>
-            <div className="answer">
-              <p>Ms. Galanos is a computer science teacher at Thomas Jefferson High School for Science and Technology and a teacher sponsor for HackTJ.</p>
-            </div>
-          </li>
-          */
-          }
         </div>
       </div>
     </section>

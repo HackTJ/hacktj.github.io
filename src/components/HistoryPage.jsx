@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../App.css';
+import '../index.css';
 import SocialLinks from './SocialLinks';
 
 class HistoryPage extends Component {
