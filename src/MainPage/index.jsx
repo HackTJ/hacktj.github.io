@@ -1,26 +1,16 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap';
 import TeamPicture from './TeamPicture';
 import {Link} from "@reach/router"
-import SocialLinks from './SocialLinks';
+import SocialLinks from '../SocialLinks';
 import RoadMap from './RoadMap';
 import FAQuestion from './FAQuestion';
+import MLHTrustBadge from './MLHTrustBadge';
+import NavigationBar from './NavigationBar';
 
 function MainPage() {
-  const MLHTrustBadge = <a id="mlh-trust-badge" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hacktahon&amp;utm_medium=TrustBadge&amp;utm_campaign=2020-season&amp;utm_content=white" target="_blank" rel="noopener noreferrer" style={{
-      display: 'block',
-      maxWidth: '100px',
-      minWidth: '60px',
-      position: 'fixed',
-      right: '50px',
-      top: 0,
-      width: '10%',
-      zIndex: 10000
-    }}><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg" alt="Major League Hacking 2020 Hackathon Season" style={{
-      width: '100%'
-    }}/></a>;
   return (<span className="App">
-    <section className="hero">{MLHTrustBadge}<div className="container"><img className="logo" src={require('../images/bigweblogo.png')} alt="HackTJ"/>
+    <section className="hero"><MLHTrustBadge/>
+      <div className="container"><img className="logo" src={require('../images/bigweblogo.png')} alt="HackTJ"/>
         <div className="event-announcement">Registration opens on February 18 at 8pm and closes on March 4 at 8pm</div>
         <div className="event-date">March 21-22nd, 2020</div>
         <div className="event-location">Thomas Jefferson High School for Science and Technology</div>
@@ -32,40 +22,7 @@ function MainPage() {
         </div>
       </div>
     </section>
-    {/* TODO: style attribute in Navbar makes Navbar inline but hides the logo */}
-    <Navbar sticky="top" className='navcontainer' bg="#64d861" style={{
-        position: 'sticky',
-        top: '0px',
-        display: "flex",
-        flexDirection: "row",
-        zIndex: 1000
-      }}>
-      <Navbar.Brand>
-        <img src={require('../images/bigweblogo.png')} style={{
-            height: 50
-          }} alt="HackTJ"/>
-      </Navbar.Brand>
-      <Nav className='nav justify-content-center'>
-        <Nav.Link href="#intro">
-          <h1>Intro</h1>
-        </Nav.Link>
-        <Nav.Link href="#faq">
-          <h1>FAQ</h1>
-        </Nav.Link>
-        <Nav.Link href="#sponsor">
-          <h1>Sponsors</h1>
-        </Nav.Link>
-        <Nav.Link href="#schedule">
-          <h1>Schedule</h1>
-        </Nav.Link>
-        <Nav.Link href="#team">
-          <h1>Team</h1>
-        </Nav.Link>
-        <Nav.Link href="#map">
-          <h1>Map</h1>
-        </Nav.Link>
-      </Nav>
-    </Navbar>
+    <NavigationBar/>
     <a className="anchor" id="intro"></a>
     <section className="intro">
       <div className="container">

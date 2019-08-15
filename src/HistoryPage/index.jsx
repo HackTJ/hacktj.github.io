@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../index.css';
-import SocialLinks from './SocialLinks';
+import SocialLinks from '../SocialLinks';
 
 class HistoryPage extends Component {
   render() {
