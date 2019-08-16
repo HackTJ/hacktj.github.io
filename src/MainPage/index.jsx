@@ -6,11 +6,15 @@ import RoadMap from './RoadMap';
 import FAQuestion from './FAQuestion';
 import MLHTrustBadge from './MLHTrustBadge';
 import NavigationBar from './NavigationBar';
+import Logo from './Logo';
+import '../index.css';
 
 function MainPage() {
   return (<span className="App">
-    <section className="hero"><MLHTrustBadge/>
-      <div className="container"><img className="logo" src={require('../images/bigweblogo.png')} alt="HackTJ"/>
+    <section className="hero">
+      <MLHTrustBadge/>
+      <div className="container">
+        <img className="logo" src={require('../images/bigweblogo.png')} alt="HackTJ"/>
         <div className="event-announcement">Registration opens on February 18 at 8pm and closes on March 4 at 8pm</div>
         <div className="event-date">March 21-22nd, 2020</div>
         <div className="event-location">Thomas Jefferson High School for Science and Technology</div>
@@ -44,8 +48,8 @@ function MainPage() {
         <p className="large">When you register we’ll give you the option to upload a resumé, which would be given to certain sponsors looking to recruit hackers. You will also have a chance to submit your resumé after you register if you are not ready to upload it now.</p>
         <p className="large">Please note that registering alone does not guarantee you will receive a ticket. Admission decisions will be made based on a variety of factors including the date/time you register, so make sure to sign up quickly! Admission decisions will be sent out on March 11th.</p>
         <div className="register-button-block-old top">
-          <a className="flatbutton register-button" href="/forms/fieldtrip.pdf">Field Trip Form</a>
-          <a className="flatbutton register-button" href="/forms/ecc.pdf">Emergency Care Form</a>
+          <a className="flatbutton register-button" href="forms/fieldtrip.pdf">Field Trip Form</a>
+          <a className="flatbutton register-button" href="forms/ecc.pdf">Emergency Care Form</a>
         </div>
       </div>
     </section>
@@ -73,8 +77,7 @@ function MainPage() {
           <div className="row">
             <FAQuestion question="Is there any cost?" answer=<span>Nope! Thanks to our sponsors, HackTJ is completely free!</span>/>
             <FAQuestion question="Is there a deadline?" answer=<span>Registration will be open starting on February 18th through the beginning of March.</span>/>
-            <FAQuestion question="Do you have a code of conduct?" small={true} answer=<span>Yes, good question! We have adopted the
-              <a href="https://hacktj.org/conduct.pdf" target="_blank" rel="noopener noreferrer">MLH code of conduct</a>, which all attendees will be required to adhere to.</span>/>
+            <FAQuestion question="Do you have a code of conduct?" small={true} answer=<span>Yes, good question! We have adopted the <a href="https://hacktj.org/conduct.pdf" target="_blank" rel="noopener noreferrer">MLH code of conduct</a>, which all attendees will be required to adhere to.</span>/>
           </div>
           <div className="row">
             <FAQuestion question="Isn&apos;t hacking illegal?" answer=<span>In the context of a hackathon, &quot;hacking&quot; is to build a real application over the length of the event. It&apos;s important to not confuse this with illegal hacking, which is gaining unauthorized access to a computer.</span>/>
@@ -84,12 +87,10 @@ function MainPage() {
           <div className="row">
             <FAQuestion question="What should I bring?" answer=<span>You&apos;ll need to bring your laptop, phone, chargers, a sleeping bag/pillow, toiletries, and extra clothing. We suggest you bring a set of nice clothes for demos; you&apos;ll want to make the best impression.</span>/>
             <FAQuestion question="Will there be food?" answer=<span>Yes. Lots and lots of food.</span>/>
-            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please
-              <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
+            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
           </div>
         </ul>
-        <p className="large">If your question is not answered here, just ask us:
-          <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
+        <p className="large">If your question is not answered here, just ask us: <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
         <div className="animation-container vertical right bottom">
           <div className="animated white"></div>
         </div>
@@ -105,51 +106,32 @@ function MainPage() {
         </div>
         <h1 className="section-title">Sponsors</h1>
         <div className="partner-container">
-          <a href="http://fanniemae.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/fanniemae.png')} alt="Fannie Mae"/></a>
-          <a href="http://yext.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/yext.png')} alt="Yext"/></a>
-          <a href="http://capitalone.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/capitalone.png')} alt="Capital One"/></a>
-          <a href="http://balsamiq.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/balsamiq.png')} alt="Balsamiq"/></a>
-          <a href="http://appian.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/appian.png')} alt="Appian"/></a>
-          <a href="http://wgssystems.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/wgssystems.jpg')} alt="WGS Systems"/></a>
-          <a href="http://razorx2.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/RazorX2.png')} alt="RazorX2"/></a>
-          <a href="http://palantir.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/Palantir.png')} alt="palantir"/></a>
-          <a href="http://phone2action.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/phone2action.png')} alt="Phone2Action"/></a>
-          <a href="http://ultrapress.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/up.png')} alt="UltraPress"/></a>
-          <a href="http://deciphernow.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/decipher.png')} alt="Decipher Technology Studios"/></a>
-          <a href="http://zilliontechnologies.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/zillion.png')} alt="Zillion"/></a>
-          <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/stickermule.png')} alt="Sticker Mule"/></a>
-          <a href="http://customink.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/customink.png')} alt="Custom Ink"/></a>
-          <a href="http://thinkfun.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/sponsors/thinkfun.png')} alt="ThinkFun"/></a>
+          <Logo url="http://fanniemae.com" logo={require('../images/sponsors/fanniemae.png')} name="Fannie Mae"/>
+          <Logo url="http://yext.com" logo={require('../images/sponsors/yext.png')} name="Yext"/>
+          <Logo url="http://capitalone.com" logo={require('../images/sponsors/capitalone.png')} name="Capital One"/>
+          <Logo url="http://balsamiq.com" logo={require('../images/sponsors/balsamiq.png')} name="Balsamiq"/>
+          <Logo url="http://appian.com" logo={require('../images/sponsors/appian.png')} name="Appian"/>
+          <Logo url="http://wgssystems.com" logo={require('../images/sponsors/wgssystems.jpg')} name="WGS Systems"/>
+          <Logo url="http://razorx2.com" logo={require('../images/sponsors/RazorX2.png')} name="RazorX2"/>
+          <Logo url="http://palantir.com" logo={require('../images/sponsors/Palantir.png')} name="Palantir"/>
+          <Logo url="http://phone2action.com" logo={require('../images/sponsors/phone2action.png')} name="Phone2Action"/>
+          <Logo url="http://ultrapress.com" logo={require('../images/sponsors/up.png')} name="UltraPress"/>
+          <Logo url="http://deciphernow.com" logo={require('../images/sponsors/decipher.png')} name="Decipher Technology Studios"/>
+          <Logo url="http://zilliontechnologies.com" logo={require('../images/sponsors/zillion.png')} name="Zillion"/>
+          <Logo url="http://hackp.ac/mlh-stickermule-hackathons" logo={require('../images/sponsors/stickermule.png')} name="Sticker Mule"/>
+          <Logo url="http://customink.com" logo={require('../images/sponsors/customink.png')} name="Custom Ink"/>
+          <Logo url="http://thinkfun.com" logo={require('../images/sponsors/thinkfun.png')} name="ThinkFun"/>
         </div>
         <p className="large">Can't see our sponsors? Try disabling ad block for this page.</p>
         <h1 className="section-title">Partners</h1>
         <div className="partner-container">
-          <a href="http://mlh.io" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/partners/mlh.png')} alt="Major League Hacking"/></a>
-          <a href="http://tjpartnershipfund.org" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/partners/tjpartnershipfund.jpg')} alt="TJ Partnership Fund"/></a>
-          <a href="http://tjclc.wordpress.com" target="_blank" rel="noopener noreferrer">
-            <img src={require('../images/partners/clc.png')} alt="Coding Lady Colonials"/></a>
+          <Logo url="http://mlh.io" logo={require('../images/partners/mlh.png')} name="Major League Hacking"/>
+          <Logo url="http://tjpartnershipfund.org" logo={require('../images/partners/tjpartnershipfund.jpg')} name="TJ Partnership Fund"/>
+          <Logo url="http://tjclc.wordpress.com" logo={require('../images/partners/clc.png')} name="Coding Lady Colonials"/>
         </div>
-        <p className="large">Interested in sponsoring? Check out our
-          <a href="sponsorship.pdf">sponsorship packet</a>
-          and email us at
-          <a href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a>.</p>
+        <p className="large">
+          Interested in sponsoring? Check out our <a href="sponsorship.pdf">sponsorship packet</a> and email us at <a href="mailto:sponsor@hacktj.org">sponsor@hacktj.org</a>.
+        </p>
       </div>
     </section>
     <div className="animation-container horizontal sponsors">
