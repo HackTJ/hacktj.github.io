@@ -8,6 +8,7 @@
   font: 14px/1.5 helvetica, arial, sans-serif;
   text-rendering: optimizeLegibility;
   vertical-align: top;
+  scroll-behavior: smooth;
 }
 
 audio:not([controls]) {
