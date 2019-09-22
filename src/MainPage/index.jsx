@@ -77,7 +77,8 @@ function MainPage() {
           <div className="row">
             <FAQuestion question="Is there any cost?" answer=<span>Nope! Thanks to our sponsors, HackTJ is completely free!</span>/>
             <FAQuestion question="Is there a deadline?" answer=<span>Registration will be open starting on February 18th through the beginning of March.</span>/>
-            <FAQuestion question="Do you have a code of conduct?" small={true} answer=<span>Yes, good question! We have adopted the <a href="https://hacktj.org/conduct.pdf" target="_blank" rel="noopener noreferrer">MLH code of conduct</a>, which all attendees will be required to adhere to.</span>/>
+            <FAQuestion question="Do you have a code of conduct?" small={true} answer=<span>Yes, good question! We have adopted the
+              <a href="https://hacktj.org/conduct.pdf" target="_blank" rel="noopener noreferrer">MLH code of conduct</a>, which all attendees will be required to adhere to.</span>/>
           </div>
           <div className="row">
             <FAQuestion question="Isn&apos;t hacking illegal?" answer=<span>In the context of a hackathon, &quot;hacking&quot; is to build a real application over the length of the event. It&apos;s important to not confuse this with illegal hacking, which is gaining unauthorized access to a computer.</span>/>
@@ -87,10 +88,12 @@ function MainPage() {
           <div className="row">
             <FAQuestion question="What should I bring?" answer=<span>You&apos;ll need to bring your laptop, phone, chargers, a sleeping bag/pillow, toiletries, and extra clothing. We suggest you bring a set of nice clothes for demos; you&apos;ll want to make the best impression.</span>/>
             <FAQuestion question="Will there be food?" answer=<span>Yes. Lots and lots of food.</span>/>
-            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
+            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please
+              <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
           </div>
         </ul>
-        <p className="large">If your question is not answered here, just ask us: <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
+        <p className="large">If your question is not answered here, just ask us:
+          <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
         <div className="animation-container vertical right bottom">
           <div className="animated white"></div>
         </div>
@@ -106,21 +109,12 @@ function MainPage() {
         </div>
         <h1 className="section-title">Sponsors</h1>
         <div className="partner-container">
-          <Logo url="http://fanniemae.com" logo={require('../images/sponsors/fanniemae.png')} name="Fannie Mae"/>
           <Logo url="http://yext.com" logo={require('../images/sponsors/yext.png')} name="Yext"/>
-          <Logo url="http://capitalone.com" logo={require('../images/sponsors/capitalone.png')} name="Capital One"/>
-          <Logo url="http://balsamiq.com" logo={require('../images/sponsors/balsamiq.png')} name="Balsamiq"/>
-          <Logo url="http://appian.com" logo={require('../images/sponsors/appian.png')} name="Appian"/>
-          <Logo url="http://wgssystems.com" logo={require('../images/sponsors/wgssystems.jpg')} name="WGS Systems"/>
-          <Logo url="http://razorx2.com" logo={require('../images/sponsors/RazorX2.png')} name="RazorX2"/>
-          <Logo url="http://palantir.com" logo={require('../images/sponsors/Palantir.png')} name="Palantir"/>
-          <Logo url="http://phone2action.com" logo={require('../images/sponsors/phone2action.png')} name="Phone2Action"/>
-          <Logo url="http://ultrapress.com" logo={require('../images/sponsors/up.png')} name="UltraPress"/>
-          <Logo url="http://deciphernow.com" logo={require('../images/sponsors/decipher.png')} name="Decipher Technology Studios"/>
-          <Logo url="http://zilliontechnologies.com" logo={require('../images/sponsors/zillion.png')} name="Zillion"/>
-          <Logo url="http://hackp.ac/mlh-stickermule-hackathons" logo={require('../images/sponsors/stickermule.png')} name="Sticker Mule"/>
-          <Logo url="http://customink.com" logo={require('../images/sponsors/customink.png')} name="Custom Ink"/>
-          <Logo url="http://thinkfun.com" logo={require('../images/sponsors/thinkfun.png')} name="ThinkFun"/>
+          <Logo url="https://ensco.com" logo={require('../images/sponsors/ensco.png')} name="Ensco"/>
+          <Logo url="https://phone2action.com" logo={require('../images/sponsors/phone2action.png')} name="Phone2Action"/>
+          <Logo url="https://www.collinsaerospace.com" logo={require('../images/sponsors/collinsaerospace.jpeg')} name="Collins Aerospace"/>
+          <Logo url="https://www.alertfive.io" logo={require('../images/sponsors/alertfive.png')} name="Alert Five"/>
+          <Logo url="https://www.thinkfun.com" logo={require('../images/sponsors/thinkfun.png')} name="ThinkFun"/>
         </div>
         <p className="large">Can't see our sponsors? Try disabling ad block for this page.</p>
         <h1 className="section-title">Partners</h1>
@@ -143,10 +137,10 @@ function MainPage() {
         <div className="animation-container vertical top left extra-height">
           <div className="animated"></div>
         </div>
-        <h1 className="section-title">Schedule</h1>
+        <h1 className="section-title">Last Year's Schedule</h1>
         <ul className="day">
           <div className="day-title">
-            <h3>Saturday, March 21</h3>
+            <h3>Saturday, April 6</h3>
             <div className="animation-container horizontal line-schedule">
               <div className="animated left"></div>
             </div>
@@ -187,7 +181,7 @@ function MainPage() {
         </ul>
         <ul className="day">
           <div className="day-title">
-            <h3>Sunday, March 22</h3>
+            <h3>Sunday, April 7</h3>
             <div className="animation-container horizontal line-schedule">
               <div className="animated left"></div>
             </div>
@@ -227,7 +221,7 @@ function MainPage() {
         </ul>
       </div>
     </section>
-    <a className="anchor" id="team"></a>
+    {/*<a className="anchor" id="team"></a>
     <section className="team" id="team">
       <div className="container">
         <div className="animation-container vertical top left extra-right extra-height">
@@ -257,7 +251,8 @@ function MainPage() {
     <a className="anchor" id="map"></a>
     <section className="green map">
       <RoadMap/>
-    </section>
+    </section>*/
+    }
     <section className="green register">
       <div className="container">
         <div className="register-button-block-old bottom">

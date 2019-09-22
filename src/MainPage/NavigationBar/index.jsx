@@ -31,12 +31,12 @@ class NavigationBar extends Component {
         <Nav.Link href="#schedule">
           <h1>Schedule</h1>
         </Nav.Link>
-        <Nav.Link href="#team">
+        {/*<Nav.Link href="#team">
           <h1>Team</h1>
         </Nav.Link>
         <Nav.Link href="#map">
           <h1>Map</h1>
-        </Nav.Link>
+        </Nav.Link>*/}
       </Nav>
     </Navbar>);
   }

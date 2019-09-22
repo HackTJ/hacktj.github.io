@@ -13,7 +13,7 @@ We use ReactJS.
 ## Deployment
 
 -   `npm run start`: starts a server on [port 3000](localhost:3000) and watches files for changes, compiling them on the fly
--   `npm run build`: ompiles all files to the `build/` directory but doesn't watch for changes or start a server
+-   `npm run build`: compiles all files to the `build/` directory but doesn't watch for changes or start a server
 -   `npm run deploy-event`: pushes to the `gh-pages` branch of this repository and deploys the site to hacktj.org/202x
 -   `npm run deploy-homepage`: pushes to the [hacktj.github.io repo](https://github.com/HackTJ/hacktj.github.io) and deploys the site to <https://hacktj.org>
 -   `npm run deploy-all`: shortcut for both `npm run deploy-event` and `npm run deploy-homepage`
