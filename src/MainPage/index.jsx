@@ -88,12 +88,10 @@ function MainPage() {
           <div className="row">
             <FAQuestion question="What should I bring?" answer=<span>You&apos;ll need to bring your laptop, phone, chargers, a sleeping bag/pillow, toiletries, and extra clothing. We suggest you bring a set of nice clothes for demos; you&apos;ll want to make the best impression.</span>/>
             <FAQuestion question="Will there be food?" answer=<span>Yes. Lots and lots of food.</span>/>
-            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please
-              <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
+            <FAQuestion question="What if I have dietary concerns?" small={true} answer=<span>We&apos;ll be providing meals for most everyone at HackTJ, but if you have special concerns please <a href='mailto:hello@hacktj.org'>let us know</a>.</span>/>
           </div>
         </ul>
-        <p className="large">If your question is not answered here, just ask us:
-          <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
+        <p className="large">If your question is not answered here, just ask us: <a href="mailto:hello@hacktj.org">hello@hacktj.org</a>.</p>
         <div className="animation-container vertical right bottom">
           <div className="animated white"></div>
         </div>

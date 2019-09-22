@@ -21,10 +21,9 @@
     "switch-event": "./switch event",
     "switch-homepage": "./switch homepage",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "deploy-event": "npm run switch-event && npm run deploy",
-    "deploy-homepage": "npm run switch-homepage && npm run deploy",
-    "deploy-all": "npm run deploy-event && npm run deploy-homepage && npm run switch-event"
+    "deploy-event": "npm run switch-event && gh-pages -d build",
+    "deploy-homepage": "npm run switch-homepage && gh-pages -b master -d build",
+    "deploy-all": "npm run deploy-event && npm run deploy-homepage"
   },
   "eslintConfig": {
     "extends": "react-app"
