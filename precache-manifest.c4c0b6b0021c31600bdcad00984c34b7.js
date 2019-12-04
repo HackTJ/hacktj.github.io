@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f39841aecd6e6b7851c1d35a6f18b17d",
+    "revision": "7f2554fcd72b8e9703f699249bcfb821",
     "url": "/index.html"
   },
   {
-    "revision": "34e8149a367a0ad526f2",
+    "revision": "41c0280a93eb747fe0ab",
     "url": "/static/css/2.d9a8a5a7.chunk.css"
   },
   {
-    "revision": "0f4a0750b13653e636fb",
-    "url": "/static/css/main.f8f49738.chunk.css"
+    "revision": "c43f779eaa82e4c8fe41",
+    "url": "/static/css/main.e4311789.chunk.css"
   },
   {
-    "revision": "34e8149a367a0ad526f2",
-    "url": "/static/js/2.45faf13f.chunk.js"
+    "revision": "41c0280a93eb747fe0ab",
+    "url": "/static/js/2.19ceb618.chunk.js"
   },
   {
-    "revision": "0f4a0750b13653e636fb",
-    "url": "/static/js/main.6f1875b5.chunk.js"
+    "revision": "c43f779eaa82e4c8fe41",
+    "url": "/static/js/main.a48f6698.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9b2a71430394ae1597f9f78d86bfe84a",
     "url": "/static/media/NishithaVattikonda.9b2a7143.jpg"
+  },
+  {
+    "revision": "6e433b2fef1286088eccf92b0fe43596",
+    "url": "/static/media/ParthivChigurupati.6e433b2f.jpg"
   },
   {
     "revision": "6e0ea77d2d9d4fdcc8cfd2f733e2b0b7",
