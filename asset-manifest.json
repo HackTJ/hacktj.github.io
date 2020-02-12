@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.caca0737.chunk.css",
-    "main.js": "/static/js/main.f5479d1b.chunk.js",
-    "main.js.map": "/static/js/main.f5479d1b.chunk.js.map",
+    "main.css": "/static/css/main.b8d50202.chunk.css",
+    "main.js": "/static/js/main.58ecd6c6.chunk.js",
+    "main.js.map": "/static/js/main.58ecd6c6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0eae09f.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0eae09f.js.map",
     "static/css/2.7efaf445.chunk.css": "/static/css/2.7efaf445.chunk.css",
-    "static/js/2.fdf2f1fa.chunk.js": "/static/js/2.fdf2f1fa.chunk.js",
-    "static/js/2.fdf2f1fa.chunk.js.map": "/static/js/2.fdf2f1fa.chunk.js.map",
+    "static/js/2.f3d3f03e.chunk.js": "/static/js/2.f3d3f03e.chunk.js",
+    "static/js/2.f3d3f03e.chunk.js.map": "/static/js/2.f3d3f03e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9783d60d5968b16ea93fd9bc4f40afa2.js": "/precache-manifest.9783d60d5968b16ea93fd9bc4f40afa2.js",
+    "precache-manifest.4aa787564fb6ca110eaf50bd77e6177f.js": "/precache-manifest.4aa787564fb6ca110eaf50bd77e6177f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7efaf445.chunk.css.map": "/static/css/2.7efaf445.chunk.css.map",
-    "static/css/main.caca0737.chunk.css.map": "/static/css/main.caca0737.chunk.css.map",
-    "static/js/2.fdf2f1fa.chunk.js.LICENSE.txt": "/static/js/2.fdf2f1fa.chunk.js.LICENSE.txt",
+    "static/css/main.b8d50202.chunk.css.map": "/static/css/main.b8d50202.chunk.css.map",
+    "static/js/2.f3d3f03e.chunk.js.LICENSE.txt": "/static/js/2.f3d3f03e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/pe-icon-social.cf5e5e03.svg",
     "static/media/ForrestMeng.jpg": "/static/media/ForrestMeng.aa887993.jpg",
     "static/media/JerryLi.jpg": "/static/media/JerryLi.fff679aa.jpg",
@@ -35,12 +35,12 @@
     "static/media/alertfive.png": "/static/media/alertfive.b3a089d0.png",
     "static/media/aws.png": "/static/media/aws.6bb0fcd0.png",
     "static/media/bigweblogo.png": "/static/media/bigweblogo.bbb824df.png",
-    "static/media/collinsaerospace.jpeg": "/static/media/collinsaerospace.03b82106.jpeg",
+    "static/media/collinsaerospace.png": "/static/media/collinsaerospace.ff7503c8.png",
     "static/media/logo-black.png": "/static/media/logo-black.b4b6605f.png",
     "static/media/mlh.png": "/static/media/mlh.947395a0.png",
     "static/media/phone2action.png": "/static/media/phone2action.1dfa7ba4.png",
     "static/media/razorx2.png": "/static/media/razorx2.37502ed1.png",
-    "static/media/spontit.png": "/static/media/spontit.689e93c2.png",
+    "static/media/spontit.png": "/static/media/spontit.cf25b36b.png",
     "static/media/thinkfun.png": "/static/media/thinkfun.df286770.png",
     "static/media/tjpartnershipfund.jpg": "/static/media/tjpartnershipfund.db8b2bb3.jpg",
     "static/media/yext.png": "/static/media/yext.daf29b56.png"
@@ -48,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.b0eae09f.js",
     "static/css/2.7efaf445.chunk.css",
-    "static/js/2.fdf2f1fa.chunk.js",
-    "static/css/main.caca0737.chunk.css",
-    "static/js/main.f5479d1b.chunk.js"
+    "static/js/2.f3d3f03e.chunk.js",
+    "static/css/main.b8d50202.chunk.css",
+    "static/js/main.58ecd6c6.chunk.js"
   ]
 }
