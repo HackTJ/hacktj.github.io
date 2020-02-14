@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.05ace12b.chunk.css",
-    "main.js": "/static/js/main.7265b15a.chunk.js",
-    "main.js.map": "/static/js/main.7265b15a.chunk.js.map",
+    "main.css": "/static/css/main.3f73c60d.chunk.css",
+    "main.js": "/static/js/main.5faf59b7.chunk.js",
+    "main.js.map": "/static/js/main.5faf59b7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0eae09f.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0eae09f.js.map",
     "static/css/2.7efaf445.chunk.css": "/static/css/2.7efaf445.chunk.css",
-    "static/js/2.f3d3f03e.chunk.js": "/static/js/2.f3d3f03e.chunk.js",
-    "static/js/2.f3d3f03e.chunk.js.map": "/static/js/2.f3d3f03e.chunk.js.map",
+    "static/js/2.d41201f0.chunk.js": "/static/js/2.d41201f0.chunk.js",
+    "static/js/2.d41201f0.chunk.js.map": "/static/js/2.d41201f0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0723b37b0330c2d0b3da97dfacc6b5bf.js": "/precache-manifest.0723b37b0330c2d0b3da97dfacc6b5bf.js",
+    "precache-manifest.f71d60652ff65727d2f24ddbacdb78d9.js": "/precache-manifest.f71d60652ff65727d2f24ddbacdb78d9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7efaf445.chunk.css.map": "/static/css/2.7efaf445.chunk.css.map",
-    "static/css/main.05ace12b.chunk.css.map": "/static/css/main.05ace12b.chunk.css.map",
-    "static/js/2.f3d3f03e.chunk.js.LICENSE.txt": "/static/js/2.f3d3f03e.chunk.js.LICENSE.txt",
+    "static/css/main.3f73c60d.chunk.css.map": "/static/css/main.3f73c60d.chunk.css.map",
+    "static/js/2.d41201f0.chunk.js.LICENSE.txt": "/static/js/2.d41201f0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/pe-icon-social.cf5e5e03.svg",
     "static/media/ForrestMeng.jpg": "/static/media/ForrestMeng.aa887993.jpg",
     "static/media/JerryLi.jpg": "/static/media/JerryLi.fff679aa.jpg",
@@ -36,7 +36,6 @@
     "static/media/aws.png": "/static/media/aws.6bb0fcd0.png",
     "static/media/bigweblogo.png": "/static/media/bigweblogo.bbb824df.png",
     "static/media/collinsaerospace.png": "/static/media/collinsaerospace.ff7503c8.png",
-    "static/media/logo-black.png": "/static/media/logo-black.b4b6605f.png",
     "static/media/mlh.png": "/static/media/mlh.947395a0.png",
     "static/media/phone2action.png": "/static/media/phone2action.1dfa7ba4.png",
     "static/media/razorx2.png": "/static/media/razorx2.37502ed1.png",
@@ -48,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.b0eae09f.js",
     "static/css/2.7efaf445.chunk.css",
-    "static/js/2.f3d3f03e.chunk.js",
-    "static/css/main.05ace12b.chunk.css",
-    "static/js/main.7265b15a.chunk.js"
+    "static/js/2.d41201f0.chunk.js",
+    "static/css/main.3f73c60d.chunk.css",
+    "static/js/main.5faf59b7.chunk.js"
   ]
 }
