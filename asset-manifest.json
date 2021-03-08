@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.42895fae.chunk.css",
-    "main.js": "/static/js/main.1b0fbc6a.chunk.js",
-    "main.js.map": "/static/js/main.1b0fbc6a.chunk.js.map",
+    "main.js": "/static/js/main.03bad2ec.chunk.js",
+    "main.js.map": "/static/js/main.03bad2ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c02f158f.js",
     "runtime-main.js.map": "/static/js/runtime-main.c02f158f.js.map",
     "static/js/2.445c4c64.chunk.js": "/static/js/2.445c4c64.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/SumanthRatna.png": "/static/media/SumanthRatna.c4b7353f.png",
     "static/media/TammyDing.png": "/static/media/TammyDing.a3af72f8.png",
     "static/media/bigweblogo.a545926d.svg": "/static/media/bigweblogo.a545926d.svg",
-    "static/media/brandmakers.png": "/static/media/brandmakers.5d60d810.png",
+    "static/media/brandmakers.png": "/static/media/brandmakers.e396b738.png",
     "static/media/cvent.png": "/static/media/cvent.877f8ddb.png",
     "static/media/eastbanc.png": "/static/media/eastbanc.cfdd80a4.png",
     "static/media/echoar.png": "/static/media/echoar.aa923df9.png",
@@ -45,6 +45,6 @@
     "static/js/runtime-main.c02f158f.js",
     "static/js/2.445c4c64.chunk.js",
     "static/css/main.42895fae.chunk.css",
-    "static/js/main.1b0fbc6a.chunk.js"
+    "static/js/main.03bad2ec.chunk.js"
   ]
 }
