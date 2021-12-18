@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cc06779e.chunk.css",
-    "main.js": "/static/js/main.88ef4e60.chunk.js",
-    "main.js.map": "/static/js/main.88ef4e60.chunk.js.map",
+    "main.js": "/static/js/main.d4919d8c.chunk.js",
+    "main.js.map": "/static/js/main.d4919d8c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ba313cd.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ba313cd.js.map",
     "static/js/2.c6d1b1a3.chunk.js": "/static/js/2.c6d1b1a3.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/TaeinKim.JPG": "/static/media/TaeinKim.e7a6b975.JPG",
     "static/media/VidhiSharma.JPG": "/static/media/VidhiSharma.b029848a.JPG",
     "static/media/armyrotc.png": "/static/media/armyrotc.9ee17dfe.png",
-    "static/media/bigweblogo.5e8be410.svg": "/static/media/bigweblogo.5e8be410.svg",
+    "static/media/bigweblogo.58bf55fa.svg": "/static/media/bigweblogo.58bf55fa.svg",
     "static/media/brandmakers.png": "/static/media/brandmakers.e7b26d38.png",
     "static/media/collinsaerospace.png": "/static/media/collinsaerospace.c0edf749.png",
     "static/media/eastbanc.png": "/static/media/eastbanc.1a9373cf.png",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.4ba313cd.js",
     "static/js/2.c6d1b1a3.chunk.js",
     "static/css/main.cc06779e.chunk.css",
-    "static/js/main.88ef4e60.chunk.js"
+    "static/js/main.d4919d8c.chunk.js"
   ]
 }
