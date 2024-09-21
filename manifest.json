@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-0de82165.js",
+    "file": "_app/immutable/start-8272375c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js"
     ],
     "dynamicImports": [
@@ -18,144 +18,143 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "_app/immutable/pages/__layout.svelte-8ade549b.js",
+    "file": "_app/immutable/pages/__layout.svelte-f8366ff9.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js"
+      "_index-a8d9dc73.js"
     ],
     "css": [
-      "_app/immutable/assets/__layout-aafa0f63.css"
+      "_app/immutable/assets/__layout-75d7bb79.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "_app/immutable/error.svelte-7ad4f67b.js",
+    "file": "_app/immutable/error.svelte-fe8fe18b.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js"
+      "_index-a8d9dc73.js"
     ]
   },
   "src/routes/faq.svelte": {
-    "file": "_app/immutable/pages/faq.svelte-5d840c71.js",
+    "file": "_app/immutable/pages/faq.svelte-23fe1c76.js",
     "src": "src/routes/faq.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js",
-      "_home-27f990f7.js",
-      "_Footer-e5e376eb.js",
-      "_teamMembers-d23732b7.js",
-      "_index-99f3a9dd.js",
-      "_dayjs.min-7a9e7301.js"
+      "_home-599ee650.js",
+      "_Footer-02a4a4a9.js",
+      "_index-4a2c188b.js",
+      "_dayjs.min-1fadea94.js"
+    ],
+    "css": [
+      "_app/immutable/assets/faq-77da952b.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-4ee68b65.js",
+    "file": "_app/immutable/pages/index.svelte-8b86e0aa.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js",
-      "_Footer-e5e376eb.js",
-      "_Modal-e0a1d55b.js",
-      "_index-99f3a9dd.js",
-      "_teamMembers-d23732b7.js",
-      "_dayjs.min-7a9e7301.js"
+      "_Footer-02a4a4a9.js",
+      "_Modal-054c3d4f.js",
+      "_index-4a2c188b.js",
+      "_dayjs.min-1fadea94.js"
     ]
   },
   "src/routes/register.svelte": {
-    "file": "_app/immutable/pages/register.svelte-b427e314.js",
+    "file": "_app/immutable/pages/register.svelte-65818891.js",
     "src": "src/routes/register.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js",
-      "_home-27f990f7.js",
-      "_Footer-e5e376eb.js",
-      "_index-99f3a9dd.js",
-      "_dayjs.min-7a9e7301.js"
+      "_home-599ee650.js",
+      "_Footer-02a4a4a9.js",
+      "_index-4a2c188b.js",
+      "_dayjs.min-1fadea94.js"
     ]
   },
   "src/routes/resources.svelte": {
-    "file": "_app/immutable/pages/resources.svelte-f8322a9c.js",
+    "file": "_app/immutable/pages/resources.svelte-f17db51c.js",
     "src": "src/routes/resources.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js",
-      "_home-27f990f7.js",
-      "_Footer-e5e376eb.js"
+      "_home-599ee650.js",
+      "_Footer-02a4a4a9.js"
     ]
   },
   "src/routes/schedule.svelte": {
-    "file": "_app/immutable/pages/schedule.svelte-e0c2cd41.js",
+    "file": "_app/immutable/pages/schedule.svelte-c7458bb8.js",
     "src": "src/routes/schedule.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-d34e7dd7.js",
+      "_index-a8d9dc73.js",
       "_paths-b9644fda.js",
-      "_home-27f990f7.js",
-      "_dayjs.min-7a9e7301.js",
-      "_Modal-e0a1d55b.js",
-      "_Footer-e5e376eb.js"
+      "_home-599ee650.js",
+      "_dayjs.min-1fadea94.js",
+      "_Modal-054c3d4f.js",
+      "_Footer-02a4a4a9.js"
     ]
   },
-  "_index-d34e7dd7.js": {
-    "file": "_app/immutable/chunks/index-d34e7dd7.js"
+  "_index-a8d9dc73.js": {
+    "file": "_app/immutable/chunks/index-a8d9dc73.js"
   },
   "_paths-b9644fda.js": {
     "file": "_app/immutable/chunks/paths-b9644fda.js"
   },
-  "_home-27f990f7.js": {
-    "file": "_app/immutable/chunks/home-27f990f7.js",
+  "_home-599ee650.js": {
+    "file": "_app/immutable/chunks/home-599ee650.js",
     "imports": [
-      "_index-d34e7dd7.js"
+      "_index-a8d9dc73.js"
     ]
   },
-  "_Footer-e5e376eb.js": {
-    "file": "_app/immutable/chunks/Footer-e5e376eb.js",
+  "_Footer-02a4a4a9.js": {
+    "file": "_app/immutable/chunks/Footer-02a4a4a9.js",
     "imports": [
-      "_index-d34e7dd7.js"
+      "_index-a8d9dc73.js"
     ]
   },
-  "_teamMembers-d23732b7.js": {
-    "file": "_app/immutable/chunks/teamMembers-d23732b7.js",
+  "_index-4a2c188b.js": {
+    "file": "_app/immutable/chunks/index-4a2c188b.js",
     "imports": [
-      "_paths-b9644fda.js"
+      "_dayjs.min-1fadea94.js"
     ]
   },
-  "_index-99f3a9dd.js": {
-    "file": "_app/immutable/chunks/index-99f3a9dd.js",
-    "imports": [
-      "_dayjs.min-7a9e7301.js"
-    ]
+  "_dayjs.min-1fadea94.js": {
+    "file": "_app/immutable/chunks/dayjs.min-1fadea94.js"
   },
-  "_dayjs.min-7a9e7301.js": {
-    "file": "_app/immutable/chunks/dayjs.min-7a9e7301.js"
-  },
-  "_Modal-e0a1d55b.js": {
-    "file": "_app/immutable/chunks/Modal-e0a1d55b.js",
+  "_Modal-054c3d4f.js": {
+    "file": "_app/immutable/chunks/Modal-054c3d4f.js",
     "imports": [
-      "_index-d34e7dd7.js"
+      "_index-a8d9dc73.js"
     ],
     "css": [
-      "_app/immutable/assets/Modal-dadff33c.css"
+      "_app/immutable/assets/Modal-8418c07d.css"
     ]
   },
+  "src/routes/faq.css": {
+    "file": "_app/immutable/assets/faq-77da952b.css",
+    "src": "src/routes/faq.css"
+  },
   "Modal.css": {
-    "file": "_app/immutable/assets/Modal-dadff33c.css",
+    "file": "_app/immutable/assets/Modal-8418c07d.css",
     "src": "Modal.css"
   },
   "src/routes/__layout.css": {
-    "file": "_app/immutable/assets/__layout-aafa0f63.css",
+    "file": "_app/immutable/assets/__layout-75d7bb79.css",
     "src": "src/routes/__layout.css"
   }
 }
